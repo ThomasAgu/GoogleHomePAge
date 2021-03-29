@@ -17,10 +17,19 @@ body{
 
 .barra-nav {
     display: flex;
-    align-items: center;
+    text-align: center;
     padding: 6px;
-    height: 60px;
+    display: inline-block;
+    flex-grow: 1;
+    font: 13px/27px Arial,sans-serif;
+    float:right;
+    padding-left: 32px;
+    justify-content: end;
+    flex: auto;
+    
 }
+
+
 .google-logo{
     max-width: 100%;
     max-height: 100%;
@@ -30,8 +39,20 @@ body{
     height: 92px;
     aspect-ratio: auto 272 / 92;
 }
+.buscador-barra{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    
+}
 
+.buscador-down {
+    text-align: center;
+    font-size: smaller;
+}
 .parte-footer .argentina{
+    display: block;
     background: #f2f2f2;
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
@@ -39,10 +60,36 @@ body{
 }
 
 .parte-footer .footer {
-    color: #70757a;
     display: block;
-    padding: 15px;
+    padding: 10px;
     white-space: nowrap;
     text-decoration: none;
+    color: rgba(0,0,0, .54);
+    text-align: center;
 }
 
+.parte-footer .footer2 {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgba(0,0,0, .54);
+    text-align: center;
+}
+
+
+
+#id{
+    color: rgba(0,0,0,0.87);
+    display: inline-block;
+}
+
+#imagenes{
+    color: rgba(0,0,0,0.87);
+    display: block;
+}
+
+A:link {text-decoration: none; color: rgba(0,0,0, .54); }
+A:hover { color: rgba(0,0,0, .54); font-family: arial; text-decoration: underline; }
+A:visited {color: rgba(0,0,0, .54);  font-family: arial; text-decoration: underline; }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: underline !important;outline: none !important;}
