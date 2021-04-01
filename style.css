@@ -5,7 +5,6 @@
 
 .barra-nav{
     box-sizing: border-box;
-
 }
 .lista-nav{
     display: flex;
@@ -21,6 +20,7 @@
     text-align: center;
     color: rgba(0,0,0,0.87);
     list-style: none;
+    margin-top: 20px;
 }
 
 #li-nav:hover{
@@ -38,11 +38,16 @@
     justify-content: center;
 }
 .box{
-    margin: 100px auto;
-    width: 300px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+    margin: 40px auto;
+    width: 600px;
     height: 50px;
 }
 .container-1{
+    
     width: 300px;
     vertical-align: middle;
     white-space: nowrap;
@@ -89,4 +94,71 @@
 
 #input-text{
     border:none;
+}
+.botones-low-searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn {
+    color: #3c4043;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font: arial;
+    text-align: center;
+}
+
+.btn:hover{
+    border: 1px solid lightgrey;
+}
+
+#ofrecido{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto ;
+    font-size: smaller;
+    height: 200px;
+}
+
+#ofrecido a{
+    text-decoration: none;
+}
+
+#Argendiva{
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+#Argentina {
+    color:  #65737e; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.primeros3{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+.ultimos2{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    
+}
+.anchor{
+    text-decoration: none;
+    color:  #70757a;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 10px 15px;
+}
+.anchor:hover{
+    text-decoration: underline;
 }
