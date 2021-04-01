@@ -1,95 +1,31 @@
 *{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
+    margin: 0%;
+    padding: 0%;
 }
 
-body{
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
-    height: auto;
-    width: auto;
-}
-
-.barra-nav {
-    display: flex;
-    text-align: center;
-    padding: 6px;
-    display: inline-block;
-    flex-grow: 1;
-    font: 13px/27px Arial,sans-serif;
+.barra-nav{
+    box-sizing: border-box;
     float:right;
-    padding-left: 32px;
-    justify-content: end;
-    flex: auto;
-    
-}
 
-
-.google-logo{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
-    height: 92px;
-    aspect-ratio: auto 272 / 92;
 }
-.buscador-barra{
+.lista-nav{
     display: flex;
     flex-direction: row;
-    margin: 20px;
-    padding: 20px;
-    
-}
-
-.buscador-down {
+}  
+#li-nav{
+    padding: 7px;
+    margin: 2px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
     text-align: center;
-    font-size: smaller;
-}
-.parte-footer .argentina{
-    display: block;
-    background: #f2f2f2;
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    color: rgba(0,0,0, .54)
-}
-
-.parte-footer .footer {
-    display: block;
-    padding: 10px;
-    white-space: nowrap;
-    text-decoration: none;
-    color: rgba(0,0,0, .54);
-    text-align: center;
-}
-
-.parte-footer .footer2 {
-    display: block;
-    padding: 10px;
-    white-space: nowrap;
-    text-decoration: none;
-    color: rgba(0,0,0, .54);
-    text-align: center;
-}
-
-
-
-#id{
     color: rgba(0,0,0,0.87);
-    display: inline-block;
+    list-style: none;
 }
 
-#imagenes{
-    color: rgba(0,0,0,0.87);
+#li-nav:hover{
+    text-decoration: underline;
+}
+
+.imagen-logo{
     display: block;
 }
-
-A:link {text-decoration: none; color: rgba(0,0,0, .54); }
-A:hover { color: rgba(0,0,0, .54); font-family: arial; text-decoration: underline; }
-A:visited {color: rgba(0,0,0, .54);  font-family: arial; text-decoration: underline; }
-	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: underline !important;outline: none !important;}
